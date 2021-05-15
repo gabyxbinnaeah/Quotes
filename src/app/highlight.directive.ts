@@ -11,9 +11,9 @@ export class HighlightDirective {
     this.textHighlight("darkgray");
   }
 
-  // @HostListener("mouseout") onmouseout(){
-  //   this.textHighlight("");
-  // }
+  @HostListener("mouseout") onmouseout(){
+    this.textHighlight("");
+  }
 
 
       private textHighlight(action:string){
