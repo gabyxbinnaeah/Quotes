@@ -1,9 +1,13 @@
 export class Quote {
-    id!:number;
-    name!:string;
-    author!:string;
-    upVote!:number;
-    downVote!:number;
+    showDetails!: boolean;
+    constructor(public id:number, public name:string,public author:string, public upVote:number, public downVote:number) { 
+        this.showDetails =false;
+    }
+    
+    
+    
+    
+    
     // createdDate!:Date;
 
 }
