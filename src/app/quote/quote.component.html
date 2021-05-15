@@ -1,14 +1,45 @@
-<div class="container">
+<div class="container-fluid">
 <p>Inspirational Quotes</p>
 <hr>
-<ul>
-    <div *ngFor='let quote of quotes; let i =index'>
-        <li  appHighlight>{{quote.name}}. Due on => {{quote.createdDate| date|uppercase}}</li>
-        <button (click)='toggleDetails(i)'>More Details</button>
-        <app-quote-detail *ngIf="quote.showDetails" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail> 
-       
-    </div>
-    
-</ul>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-"></div>
+        <div class="col-md-6">
+            <ul>
+                <div *ngFor='let quote of quotes; let i =index'>
+                    <li  appHighlight>{{quote.name}}. Due on => {{quote.createdDate| date|uppercase}}</li>
+                    <button (click)='toggleDetails(i)'>More Details</button>
+                    <app-quote-detail *ngIf="quote.showDetails" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail> 
+         
+                </div>
+            </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <h2>Create your quote!</h2>
+            <form>
+                <div class="form-group">
+          
+                    <label for="name">Quote</label>
+                    <textarea type="text" rows="4"  required class="form-control" id="name"></textarea>
+          
+                </div>
+                <div class="form-group">
+          
+                    <label for="description">Author</label>
+                    <input class="form-control" id="description" rows="4" required>
+          
+                </div>
+                <div class="form-group">
+                    <label for="complete">Created On :</label>
+                    <input type='date' id="complete" required>
+          
+                </div>
+            </form>
+        </div>
+        <div class="col-md-"></div>
+
+</div>
 <p *ngIf='quotes.length > 10'>Famous inspirational quotes</p>
 </div>
