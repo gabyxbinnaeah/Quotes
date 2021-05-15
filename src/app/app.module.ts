@@ -18,12 +18,13 @@ import { FormsModule } from '@angular/forms';
     HighlightDirective,
     DateCountPipe,
     QuoteFormComponent,
-    FormsModule
+    
    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
