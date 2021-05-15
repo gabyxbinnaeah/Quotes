@@ -9,7 +9,7 @@ import { Quote } from '../quote';
 export class QuoteDetailComponent implements OnInit {
 
 
-  @Input() quote!:Quote;
+  @Input() quote!:Quote; //for recieving data from parent component
   constructor() { }
 
   ngOnInit(): void {
