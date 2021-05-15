@@ -14,7 +14,7 @@ export class QuoteComponent implements OnInit {
       new Quote(4,'A people without the knowledge of their past history, origin and culture is like a tree without roots.','Gabriel',0,0),
     ];
     toggleDetails(index:  any){
-      //  this.quotes[index].showDetails=!this.quotes[index].showDetails;
+       this.quotes[index].showDetails=!this.quotes[index].showDetails;
     }
   constructor() { }
 
