@@ -7,9 +7,9 @@ export class HighlightDirective {
 
   constructor(private elem:ElementRef) { } //elementRef is used to inject refernce to the host DOM
 
-  // @HostListener("mouseover") onmouseover(){
-  //   this.textHighlight("darkgray");
-  // }
+  @HostListener("mouseover") onmouseover(){
+    this.textHighlight("darkgray");
+  }
 
   // @HostListener("mouseout") onmouseout(){
   //   this.textHighlight("");
