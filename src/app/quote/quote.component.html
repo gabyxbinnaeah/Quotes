@@ -1,12 +1,14 @@
+<div class="container">
 <p>Inspirational Quotes</p>
 <hr>
 <ul>
     <div *ngFor='let quote of quotes; let i =index'>
-        <li  appHighlight>{{quote.name}}</li>
+        <li  appHighlight>{{quote.name}}. Due on => {{quote.createdDate| date|uppercase}}</li>
         <button (click)='toggleDetails(i)'>More Details</button>
-        <app-quote-detail *ngIf="quote.showDetails" [quote]='quote' (isComplete)='completeQuote($event,i)'></app-quote-detail> 
+        <app-quote-detail *ngIf="quote.showDetails" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail> 
        
     </div>
     
 </ul>
 <p *ngIf='quotes.length > 10'>Famous inspirational quotes</p>
+</div>

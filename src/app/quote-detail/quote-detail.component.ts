@@ -11,7 +11,7 @@ export class QuoteDetailComponent implements OnInit {
 
   @Input() quote!:Quote; //for recieving data from parent component
   @Output() isComplete=new EventEmitter<boolean>(); //Output decorator is used to create event emmiter
-  quoteComplete(complete:boolean){
+  quoteDelete(complete:boolean){
     this.isComplete.emit(complete);//calls emit method passes event to the parent component
   }
   constructor() { }
