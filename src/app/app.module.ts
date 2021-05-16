@@ -10,6 +10,7 @@ import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FormsModule } from '@angular/forms';
 import { VoteComponent } from './vote/vote.component';
+import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { VoteComponent } from './vote/vote.component';
     DateCountPipe,
     QuoteFormComponent,
     VoteComponent,
+    QuoteVoteComponent,
     
    
   ],
