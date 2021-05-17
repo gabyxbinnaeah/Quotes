@@ -22,11 +22,11 @@ ___
 
 ___
 
-<!-- # How it works
+# How it works
 ### view more details buttom toggles details of the quote 
 ### Thumb-up adds upvote indicating like while thumb-down indicates dislike.
 ### Delete Quote button deletes quote 
-### Create Quote form generates quote willing users. -->
+### Create Quote form generates quote willing users.
 
 ___
 <!-- 
