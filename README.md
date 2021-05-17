@@ -9,16 +9,16 @@ ___
 ___
 # Description
 
-<!-- ### This is inspirational Quote web application that comprises of two parts namely, quote form and quote section. It permits users to read the quote, see more details of each quote upon clicking more details button. Users can upvote by clicking thumb-up and also downvote by clicking thumb-down. Users can also delete quotes and further create their own quote by filling the create quote form. -->
+### This is inspirational Quote web application that comprises of two parts namely, quote form and quote section. It permits users to read the quote, see more details of each quote upon clicking more details button. Users can upvote by clicking thumb-up and also downvote by clicking thumb-down. Users can also delete quotes and further create their own quote by filling the create quote form.
 
 
 ___
 
-# Tools used
+<!-- # Tools used
 
 ### css
 ### html
-### Angular JS
+### Angular JS -->
 
 ___
 
