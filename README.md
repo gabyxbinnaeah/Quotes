@@ -1,27 +1,46 @@
-# Quotes
+# Project Tittle
+### Inspirational Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+___
 
-## Development server
+# Author
+### Gabriel Silfanus Odhiambo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+___
+# Description
 
-## Code scaffolding
+<!-- ### This is inspirational Quote web application that comprises of two parts namely, quote form and quote section. It permits users to read the quote, see more details of each quote upon clicking more details button. Users can upvote by clicking thumb-up and also downvote by clicking thumb-down. Users can also delete quotes and further create their own quote by filling the create quote form. -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+___
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Tools used
 
-## Running unit tests
+### css
+### html
+### Angular JS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+___
 
-## Running end-to-end tests
+<!-- # How it works
+### view more details buttom toggles details of the quote 
+### Thumb-up adds upvote indicating like while thumb-down indicates dislike.
+### Delete Quote button deletes quote 
+### Create Quote form generates quote willing users. -->
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+___
+<!-- 
+# Installation
+### git clone : https://github.com/gabyxbinnaeah/Quotes.git 
+### open the project in your code editor. -->
 
-## Further help
+___
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<!-- # Live link 
+### to access project click: https://gabyxbinnaeah.github.io/Quotes/   -->
+
+___
+
+
+
+
