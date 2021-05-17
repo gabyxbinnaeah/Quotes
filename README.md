@@ -29,15 +29,15 @@ ___
 ### Create Quote form generates quote willing users.
 
 ___
-<!-- 
+
 # Installation
 ### git clone : https://github.com/gabyxbinnaeah/Quotes.git 
 ### open the project in your code editor. -->
 
 ___
 
-<!-- # Live link 
-### to access project click: https://gabyxbinnaeah.github.io/Quotes/   -->
+ # Live link 
+### to access project click: https://gabyxbinnaeah.github.io/Quotes/  
 
 ___
 
