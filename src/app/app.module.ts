@@ -9,8 +9,9 @@ import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FormsModule } from '@angular/forms';
-import { VoteComponent } from './vote/vote.component';
+// import { VoteComponent } from './vote/vote.component';
 import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
     HighlightDirective,
     DateCountPipe,
     QuoteFormComponent,
-    VoteComponent,
+    // VoteComponent,
     QuoteVoteComponent,
     
    
@@ -28,7 +29,8 @@ import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    IonicModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

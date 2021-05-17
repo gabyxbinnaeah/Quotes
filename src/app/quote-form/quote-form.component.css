@@ -1,0 +1,24 @@
+#enteredQuote{
+ margin-top:20px;
+ margin-bottom:10px;
+}
+#enteredDate{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+#enteredAuthor{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+#subButt{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+#formHeader{
+    text-align:center;
+    text-transform:uppercase;
+}
+#dateLable{
+    margin-right: 20px;
+}

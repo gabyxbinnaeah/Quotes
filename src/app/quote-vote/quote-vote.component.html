@@ -1,1 +1,28 @@
-<p>quote-vote works!</p>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-2">
+        <ion-icon (click)="incrementVote()" name="thumbs-up" style="color: purple;cursor: pointer;"></ion-icon>
+    </div>
+    <div class="col-md-3">
+        <p style="color: purple;"> {{upVoteCount}}</p>
+    </div>
+    <div class="col-md-3">
+        <ion-icon (click)="decrementVote()"  name="thumbs-down" class="icon" style="color: purple;cursor: pointer;">{{downVoteCount}}</ion-icon>
+    </div>
+    <div class="col-md-2" >
+        <p style="color: purple;">{{downVoteCount}}</p>
+    </div>
+    <div class="col-md-2"></div>
+    
+</div>
+
+
+<!-- <button >upVotes</button> -->
+
+
+
+
+<!-- <button >downVotes</button> -->
+
+
+

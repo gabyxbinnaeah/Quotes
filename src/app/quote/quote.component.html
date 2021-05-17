@@ -1,23 +1,41 @@
-<div class="container-fluid">
+<div class="container-fluid card" id="containerFuid">
 <p>Inspirational Quotes</p>
-<hr>
 </div>
+<hr>
 <div class="container">
     <div class="row">
         <div class="col-md-"></div>
-        <div class="col-md-6">
+        <div class="col-md-6 card">
             <ul>
-                <div *ngFor='let quote of quotes; let i =index'>
-                    <li  appHighlight>{{quote.name}}. Due on => {{quote.createdDate| date|uppercase}}</li>
-                    <button (click)='toggleDetails(i)'>More Details</button>
-                    <app-quote-detail *ngIf="quote.showDetails" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail> 
-         
+                <div *ngFor='let quote of quotes; let i =index' style="margin-top:20px;">
+                    <div class="card">
+                            <div class="card-header" id="cardheader">
+                                <div  appHighlight style="color: white;">{{quote.name}}. Due on => {{quote.createdDate| date|uppercase}}</div>
+                                <div  style="text-align:center; margin-top:10px;margin-bottom:10px;">
+                                    <button (click)='toggleDetails(i)' class="btn btn-outline-dark">More Details</button>
+                                </div> 
+                            </div>
+                            
+                        
+                            <div *ngIf="quote.showDetails" class="card-footer" id="cardFooter"  style="text-align:center">
+                                <app-quote-vote></app-quote-vote>
+                                <app-quote-detail  [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail> 
+                            </div>
+                    </div>
+                    <hr>
+                    <!-- <app-quote-vote></app-quote-vote> -->
                 </div>
+               
             </ul>
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-5">
-            <app-quote-form  (addQuote)="addNewQuote($event)" ></app-quote-form> 
+            <div class="card">
+                <div class="card-body">
+                    <app-quote-form  (addQuote)="addNewQuote($event)" ></app-quote-form> 
+                </div>
+            </div>
+            
         </div>
         <div class="col-md-"></div>
         <!-- (addQuote)="addNewQuote($event)" -->
