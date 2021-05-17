@@ -14,11 +14,11 @@ ___
 
 ___
 
-<!-- # Tools used
+# Tools used
 
 ### css
 ### html
-### Angular JS -->
+### Angular JS
 
 ___
 
